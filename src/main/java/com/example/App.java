@@ -1,5 +1,5 @@
 package com.example;
-import java.util.Scanner;
+
 /**
  * Hello world!
  *
@@ -8,13 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        Scanner sc =new Scanner(System.in);
-        System.out.println("num1:");
-        System.out.println("num2:");
-        int num1=sc.nextInt();
-        int num2=sc.nextInt();
-        int sum=num1+num2;
-        System.out.println(sum);
-        sc.close();
+        System.out.println( "Hello World!" );
     }
 }
